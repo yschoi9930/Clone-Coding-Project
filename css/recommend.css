@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+
+#Recommendimg_Ski {
+    width:440px;
+    height:220px;
+    border-radius:7px;
+}
+
+#Recommendimg_Res {
+    width:440px;
+    height:220px;
+    border-radius:7px;
+}
+
+#Recommendimg_Jeju {
+    width:440px;
+    height:220px;
+    border-radius:7px;
+}
+
+.Subtitle li{
+    list-style:none;
+    padding-left:0px;
+    font-weight:bold;
+    font-size:13px;
+    color:#FF00A2;
+}
+
+.Title li{
+    list-style:none;
+    padding-left:0px;
+    font-weight:bold;
+    font-size:16px;
+    color:#000000;
+}
+
+.Description li{
+    list-style:none;
+    padding-left:0px;
+    font-weight:bold;
+    font-size:15px;
+    color:#a897a7;
+}

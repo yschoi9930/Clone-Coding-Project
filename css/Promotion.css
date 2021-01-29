@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+#promotionimg_Snow{
+    width:260px;
+    height:170px;
+    border-radius:7px;
+}
+
+#promotionimg_Resort{
+    width:260px;
+    height:170px;
+    border-radius:7px;
+}
+
+#promotionimg_Aqua{
+    width:260px;
+    height:170px;
+    border-radius:7px;
+}
+#promotionimg_Seoul{
+    width:260px;
+    height:170px;
+    border-radius:7px;
+}
+#promotionimg_Ever{
+    width:260px;
+    height:170px;
+    border-radius:7px;
+}
+
+.Price li {
+    list-style:none;
+    padding-left:0px;
+    font-size:12.5px;
+    color:#a897a7;
+    text-decoration:line-through;
+}
+
+.Discount li {
+    list-style:none;
+    padding-left:0px;
+    font-size:18px;
+    color:#000000;
+    font-weight:bold;
+}
+
+.CouponPrice li {
+    list-style:none;
+    padding-left:0px;
+    font-size:14px;
+    color:#FF00A2;
+    font-weight:bold;
+}
+
+span.Star {
+     color:#FF00A2;
+     padding-left:38px;
+ }
+
+ span.Rate {
+     color:#000000;
+     font-weight:bold;
+     font-size:13px;
+ }
+
+
+ span.Reviews {
+     color:#a897a7;
+     font-weight:bold;
+     font-size:13px;
+ }
+
