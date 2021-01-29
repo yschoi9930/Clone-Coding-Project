@@ -3,162 +3,170 @@
 <head>
     <meta charset="UTF-8">
     <title>Waug</title>
-    <style type="text/css">
-        //body {background-color:black;}
-        #logoBox {width:50px;}
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/common.css">
 </head>
 <body>
-    <header id="Header">
-        <div id="TopBox">
-	            	<div id="logoBox"><a href="index.html"><img src="image/waug_logo.svg" id="logoImg"></a></div>
-	            	<div id="topMenuBox">한국어 KRW 대한민국 원(₩) 로그인</div>
-        </div>
+    <div id="Wrap">
+        <header>
+            <div id="Logo"><a href="#"><img src="image/waug_logo.svg" id="whiteLogo"></a></div>
+            <div id="topMenuBox"><span>한국어</span><span>KRW 대한민국 원(₩)</span><span>로그인</span></div>
+        </header>
         <div id="Main">
-            <div id="BasePhoto">
-                <div id="TransparentBox">
-                    <h3>낭만 가득한 겨울 캠핑을 만나보세요</h3>
+            <div id="Base1" class="MainStructure">
+                <img src="image/main1.jpg">
+                <div class="TransparentBox">
+                    <h3>낭만 가득한 겨울 캠핑을 만나보세요.</h3>
                     <input type="text" placeholder="액티비티 또는 지역명으로 검색하세요">
                 </div>
-                <button></button><button></button>
             </div>
-        </div>
-    </header>
-    <nav>
-        <div id="Category">
-            <div><img src=""></div>
-            <div><img src=""></div>
-            <div><img src=""></div>
-            <div><img src=""></div>
-            <div><img src=""></div>
-            <div><img src=""></div>
-            <div><img src=""></div>
-            <div><img src=""></div>
-        </div>
-    </nav>
-    <div id="Popular">
-        <div>
-            <h2>인기 여행지</h2>
-            <div><a><img src="image/cross.svg" id="logoImg"></a></div>
-            <h5>2021년 가장 핫한 여행지를 추천해요</h5>
-        </div>
-        <div id="PopularList">
-            <div><img src=""></div>
-            <div><img src=""></div>
-            <div><img src=""></div>
-            <div><img src=""></div>
-            <div><img src=""></div>
-            <div><img src=""></div>
-            <div><img src=""></div>
-            <div><img src=""></div>
-        </div>
-        <div id="ShowAllCities">
+            <div id="Base2" class="MainStructure">
+                <img src="image/main2.jpg">
+                <div class="TransparentBox">
+                    <h3>전국 스키장 어디든 할인돼요.</h3>
+                    <input type="text" placeholder="액티비티 또는 지역명으로 검색하세요">
+                </div>
+            </div>
+            <div id="controlButton">
+                <img src="image/controlButton1.png">
+                <img src="image/controlButton1.png">
+            </div>
+        </div> <!-- #Main 종료 -->
+        <nav>
+            <div id="Category">
+                <div><img src=""></div>
+                <div><img src=""></div>
+                <div><img src=""></div>
+                <div><img src=""></div>
+                <div><img src=""></div>
+                <div><img src=""></div>
+                <div><img src=""></div>
+                <div><img src=""></div>
+            </div>
+        </nav>
+        <div id="Popular">
+            <div>
+                <h2>인기 여행지</h2>
+                <div><a><img src="image/cross.svg" id="logoImg"></a></div>
+                <h5>2021년 가장 핫한 여행지를 추천해요</h5>
+            </div>
+            <div id="PopularList">
+                <div><img src=""></div>
+                <div><img src=""></div>
+                <div><img src=""></div>
+                <div><img src=""></div>
+                <div><img src=""></div>
+                <div><img src=""></div>
+                <div><img src=""></div>
+                <div><img src=""></div>
+            </div>
+            <div id="ShowAllCities">
 
+            </div>
         </div>
-    </div>
-    <div id="Coupon">
-        <div id="SlidePanel">
-            <img src="">
-            <img src="">
-            <img src="">
-            <img src="">
-            <img src="">
-            <img src="">
-        </div>
-        <div id="prevButton">
-            <img src="">
-        </div>
-        <div id="nextButton">
-            <img src="">
-        </div>
-        <div id="Buttons">
-            <button></button><button></button><button></button>
-            <button></button><button></button><button></button>
-        </div>
-    </div>
-    <div id="Promotion">
-        <h2>와그 추천</h2>
-        <div id="PromotionList">
-            <div id="Snowhill">
+        <div id="Coupon">
+            <div id="SlidePanel">
                 <img src="">
-                <div class="DueDate"></div>
-                <div class="Title"></div>
-                <div class="Review">
-                    <span class="Star"></span><span></span><span></span>
+                <img src="">
+                <img src="">
+                <img src="">
+                <img src="">
+                <img src="">
+            </div>
+            <div id="prevButton">
+                <img src="">
+            </div>
+            <div id="nextButton">
+                <img src="">
+            </div>
+            <div id="Buttons">
+                <button></button><button></button><button></button>
+                <button></button><button></button><button></button>
+            </div>
+        </div>
+        <div id="Promotion">
+            <h2>와그 추천</h2>
+            <div id="PromotionList">
+                <div id="Snowhill">
+                    <img src="">
+                    <div class="DueDate"></div>
+                    <div class="Title"></div>
+                    <div class="Review">
+                        <span class="Star"></span><span></span><span></span>
+                    </div>
+                    <div class="Price"></div>
+                    <div class="Discount"></div>
                 </div>
-                <div class="Price"></div>
-                <div class="Discount"></div>
-            </div>
-            <div id="CC">
-                <img src="">
-                <div class="DueDate"></div>
-                <div class="Title"></div>
-                <div class="Review">
-                    <span class="Star"></span><span></span><span></span>
+                <div id="CC">
+                    <img src="">
+                    <div class="DueDate"></div>
+                    <div class="Title"></div>
+                    <div class="Review">
+                        <span class="Star"></span><span></span><span></span>
+                    </div>
+                    <div class="Price"></div>
+                    <div class="Discount"></div>
                 </div>
-                <div class="Price"></div>
-                <div class="Discount"></div>
-            </div>
-            <div id="Aquarium">
-                <img src="">
-                <div class="DueDate"></div>
-                <div class="Title"></div>
-                <div class="Review">
-                    <span class="Star"></span><span></span><span></span>
+                <div id="Aquarium">
+                    <img src="">
+                    <div class="DueDate"></div>
+                    <div class="Title"></div>
+                    <div class="Review">
+                        <span class="Star"></span><span></span><span></span>
+                    </div>
+                    <div class="Price"></div>
+                    <div class="Discount"></div>
                 </div>
-                <div class="Price"></div>
-                <div class="Discount"></div>
-            </div>
-            <div id="SeoulTower">
-                <img src="">
-                <div class="DueDate"></div>
-                <div class="Title"></div>
-                <div class="Review">
-                    <span class="Star"></span><span></span><span></span>
+                <div id="SeoulTower">
+                    <img src="">
+                    <div class="DueDate"></div>
+                    <div class="Title"></div>
+                    <div class="Review">
+                        <span class="Star"></span><span></span><span></span>
+                    </div>
+                    <div class="Price"></div>
+                    <div class="Discount"></div>
                 </div>
-                <div class="Price"></div>
-                <div class="Discount"></div>
-            </div>
-            <div id="AquaPlanet">
-                <img src="">
-                <div class="DueDate"></div>
-                <div class="Title"></div>
-                <div class="Review">
-                    <span class="Star"></span><span></span><span></span>
+                <div id="AquaPlanet">
+                    <img src="">
+                    <div class="DueDate"></div>
+                    <div class="Title"></div>
+                    <div class="Review">
+                        <span class="Star"></span><span></span><span></span>
+                    </div>
+                    <div class="Price"></div>
+                    <div class="Discount"></div>
                 </div>
-                <div class="Price"></div>
-                <div class="Discount"></div>
             </div>
         </div>
-    </div>
-    <div id="Recommend">
-        <div>
-            <h2>이런 여행은 어때요?</h2>
-            <h5>와그 에디터가 추천하는 여행을 만나보세요</h5>
-        </div>
-        <div id="RecommendList">
-            <div id="Ski">
-                <img src="">
-                <div class="DueDate"></div>
-                <div class="Title"></div>
-                <div class="Description"></div>
+        <div id="Recommend">
+            <div>
+                <h2>이런 여행은 어때요?</h2>
+                <h5>와그 에디터가 추천하는 여행을 만나보세요</h5>
+            </div>
+            <div id="RecommendList">
+                <div id="Ski">
+                    <img src="">
+                    <div class="DueDate"></div>
+                    <div class="Title"></div>
+                    <div class="Description"></div>
+                </div>
             </div>
         </div>
-    </div>
-    <footer id="Footer">
-        <div>
-            <h2>와그 파트너</h2>
-            <h5>전세계의 파트너와 함께 다양한 프로모션을 제공해요</h5>
-        </div>
-        <div>
-            <div><img src="image/universalstudio_gray.png"></div>
-            <div><img src="image/disneyland_gray.png"></div>
-            <div><img src="image/bigbus_gray.png"></div>
-            <div><img src="image/eurail_gray.png"></div>
-            <div><img src="image/jr_gray.png"></div>
-            <div><img src="image/merlinentertainments_gray.png"></div>
-            <div><img src="image/goldenfuture_gray.png"></div>
-        </div>
-    </footer>
+        <footer id="Footer">
+            <div>
+                <h2>와그 파트너</h2>
+                <h5>전세계의 파트너와 함께 다양한 프로모션을 제공해요</h5>
+            </div>
+            <div>
+                <div><img src="image/universalstudio_gray.png"></div>
+                <div><img src="image/disneyland_gray.png"></div>
+                <div><img src="image/bigbus_gray.png"></div>
+                <div><img src="image/eurail_gray.png"></div>
+                <div><img src="image/jr_gray.png"></div>
+                <div><img src="image/merlinentertainments_gray.png"></div>
+                <div><img src="image/goldenfuture_gray.png"></div>
+            </div>
+        </footer>
+    </div> <!-- #Wrap 종료 -->
 </body>
 </html>
