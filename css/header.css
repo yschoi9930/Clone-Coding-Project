@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* header.css */
+header {
+    width:1900px;
+    position:fixed;
+    z-index:100;
+}
+#Logo {
+    width:90px;
+    margin-top:40px;
+    margin-left:40px;
+    display:inline-block;
+}
+#topMenuBox {
+    margin-top:30px;
+    margin-right:160px;
+    float:right;
+    color:white;
+}
+
+#MainBox {
+    width:1900px;
+    height:580px;
+    position:absolute;
+    overflow:hidden;
+}
+
+#MainImage {
+	position: relative;
+	width:3800px;
+	height:580px;
+	float:left;
+
+}
+
+#MainImage img {
+    margin:0;
+    width:1900px;
+    float:right;
+}
+
+.Search {
+    padding-top:40px;
+    top:159.5px;
+    width:35%;
+    height:45%;
+    background-color:rgba(0,0,0,0.3);
+    z-index:50;
+    position:absolute;
+    text-align:center;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+}
+.Search h2 {
+    opacity:1;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+#Search1 {
+    margin-left:32.5%;
+}
+#Search2 {
+    margin-left:132.5%;
+}
+
+.controlButton {
+    width:100%;
+    z-index:50;
+    margin-top:540px;
+    color:white;
+    position:absolute;
+}
+.controlButton img:hover {
+    cursor:pointer;
+}
+#controlButton1 {
+    margin-left:49%;
+}
+#controlButton2 {
+    margin-left:149%;
+}
+.controlButton span {
+    margin-left:700px;
+}
+
+#Category {
+    width:1900px;
+    margin-top:580px;
+    margin-right:0px;
+    height:180px;
+    background-color:#eeeeee;
+    padding-left:200px;
+}
+
+nav {
+    width:1900px;
+    position:relative;
+}
+.navImg {
+    width:40px;
+    float:left;
+    margin:70px;
+}
+.navImg:hover {
+    cursor:pointer;
+}
