@@ -1,31 +1,41 @@
 @charset "UTF-8";
 
 #promotionimg_Snow{
+    display:inline-block;
     width:260px;
     height:170px;
     border-radius:7px;
+    margin-right:20px;
 }
 
 #promotionimg_Resort{
+    display:inline-block;
     width:260px;
     height:170px;
     border-radius:7px;
+    margin-right:20px;
 }
 
 #promotionimg_Aqua{
+    display:inline-block;
     width:260px;
     height:170px;
     border-radius:7px;
+    margin-right:20px;
 }
 #promotionimg_Seoul{
+    display:inline-block;
     width:260px;
     height:170px;
     border-radius:7px;
+    margin-right:20px;
 }
 #promotionimg_Ever{
+    display:inline-block;
     width:260px;
     height:170px;
     border-radius:7px;
+    margin-right:20px;
 }
 
 .Price li {
@@ -36,15 +46,16 @@
     text-decoration:line-through;
 }
 
-.Discount li {
+span.Discount {
     list-style:none;
     padding-left:0px;
     font-size:18px;
     color:#000000;
     font-weight:bold;
+    padding-left : 40px;
 }
 
-.CouponPrice li {
+span.CouponPrice {
     list-style:none;
     padding-left:0px;
     font-size:14px;
@@ -69,4 +80,21 @@ span.Star {
      font-weight:bold;
      font-size:13px;
  }
+
+.PromotionImg {
+margin : 0 30px;
+}
+
+.PromotionImg img:hover {
+cursor:pointer;
+}
+
+
+.PromotionBox {
+display:inline-block;
+word-break:normal;
+width : 18%;
+vertical-align :top;
+}
+
 

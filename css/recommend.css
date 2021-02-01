@@ -2,20 +2,25 @@
 
 
 #Recommendimg_Ski {
-    width:440px;
-    height:220px;
+    display:inline-block;
+    width:450px;
+    height:240px;
     border-radius:7px;
+    margin-right:20px;
 }
 
 #Recommendimg_Res {
-    width:440px;
-    height:220px;
+    display:inline-block;
+    width:450px;
+    height:240px;
     border-radius:7px;
+    margin-right:20px;
 }
 
 #Recommendimg_Jeju {
-    width:440px;
-    height:220px;
+    display:inline-block;
+    width:450px;
+    height:240px;
     border-radius:7px;
 }
 
@@ -41,4 +46,21 @@
     font-weight:bold;
     font-size:15px;
     color:#a897a7;
+}
+
+.RecommendImg {
+margin : 0 30px;
+}
+
+.RecommendImg img:hover {
+cursor:pointer;
+}
+
+
+.RecommendBox{
+display:inline-block;
+word-break:normal;
+width : 30.5%;
+vertical-align :top;
+
 }
