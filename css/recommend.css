@@ -50,6 +50,7 @@
 
 .RecommendImg {
 margin : 0 30px;
+margin-bottom : 6px;
 }
 
 .RecommendImg img:hover {
@@ -62,5 +63,8 @@ display:inline-block;
 word-break:normal;
 width : 30.5%;
 vertical-align :top;
+}
 
+.RecommendBox div:hover{
+cursor:pointer;
 }

@@ -83,12 +83,16 @@ span.Star {
 
 .PromotionImg {
 margin : 0 30px;
+margin-bottom : 6px;
 }
 
 .PromotionImg img:hover {
 cursor:pointer;
 }
 
+.PromotionBox div:hover {
+cursor:pointer;
+}
 
 .PromotionBox {
 display:inline-block;
