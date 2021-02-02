@@ -27,7 +27,7 @@ $(function(){
 
     //next버튼 클릭하면 뒤로 이동
     $('#nextButton').on('click',function(){
-        if(movedIndex !=4) //마지막 이미지가 아니면
+        if(movedIndex !=5) //마지막 이미지가 아니면
             movedIndex = movedIndex + 1;//다음 이미지 인덱스
         //함수 호출
         moveSlide(movedIndex);

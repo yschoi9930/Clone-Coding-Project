@@ -2,7 +2,7 @@
 /*slideShow.css*/
 
 #slideShow {
-    width:1400px;
+    width:1366px;
     margin: 0 auto;
     background-color:#ffffff;
     height:160px;
@@ -17,7 +17,7 @@
     overflow:hidden; /* 영역 벗어난 내부 객체는 숨길 것 */
 }
 
-/* 슬라이드 패널  숨겨진 이미지까지 이미지 전체를 담는 영역*/
+/* 슬라이드 패널 숨겨진 이미지까지 이미지 전체를 담는 영역*/
 #slidePanel {
     position:relative;
     width:8196px;
