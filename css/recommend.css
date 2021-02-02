@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+
+#Recommendimg_Ski {
+    display:inline-block;
+    width:450px;
+    height:240px;
+    border-radius:7px;
+    margin-right:20px;
+}
+
+#Recommendimg_Res {
+    display:inline-block;
+    width:450px;
+    height:240px;
+    border-radius:7px;
+    margin-right:20px;
+}
+
+#Recommendimg_Jeju {
+    display:inline-block;
+    width:450px;
+    height:240px;
+    border-radius:7px;
+}
+
+.Subtitle li{
+    list-style:none;
+    padding-left:0px;
+    font-weight:bold;
+    font-size:13px;
+    color:#FF00A2;
+}
+
+.Title li{
+    list-style:none;
+    padding-left:0px;
+    font-weight:bold;
+    font-size:16px;
+    color:#000000;
+}
+
+.Description li{
+    list-style:none;
+    padding-left:0px;
+    font-weight:bold;
+    font-size:15px;
+    color:#a897a7;
+}
+
+.RecommendImg {
+margin-top :15px;
+margin-left :30px;
+margin-bottom : 6px;
+}
+
+.RecommendImg img:hover {
+cursor:pointer;
+}
+
+
+.RecommendBox{
+display:inline-block;
+word-break:normal;
+width : 30.5%;
+vertical-align :top;
+margin-bottom : 50px;
+}
+
+.RecommendBox div:hover{
+cursor:pointer;
+}
+
+
+
