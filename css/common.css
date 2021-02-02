@@ -1,12 +1,9 @@
 @charset "UTF-8";
 /* common.css */
 
-/* body::-webkit-scrollbar {display:none;} */
-
 * {margin:0;}
 
 #Wrap {
     width:1900px;
-    position:absolute;
-    margin:0;
-    }
+    overflow:hidden;
+}

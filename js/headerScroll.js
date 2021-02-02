@@ -9,7 +9,7 @@ $(function(){
             $('header').css({'background-color':'white',
                             'border-bottom':'1px solid black'});
             $('#whiteLogo').attr('src','image/waug_logo.png');
-            $('#topMenuBox').css({'color':'pink',
+            $('#topMenuBox').css({'color':'#ff69b4',
                                 'font-weight':'bold'});
         };
         if(scroll_top<580){
