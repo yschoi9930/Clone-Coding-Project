@@ -1,0 +1,15 @@
+
+
+.Inputblock{
+display:inline-block;
+width:400px;
+height:500px;
+background-color: grey;
+}
+
+.Block {
+width:360px;
+height : 30px;
+margin-bottom:30px;
+
+}

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/WaugCoding.iml" filepath="$PROJECT_DIR$/.idea/WaugCoding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CloneCoding.iml" filepath="$PROJECT_DIR$/.idea/CloneCoding.iml" />
     </modules>
   </component>
 </project>

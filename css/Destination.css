@@ -4,7 +4,7 @@
 
 #popular{
     width:1366px;
-    height:500px;
+    height:350px;
     background:white;
     padding:40px;
     padding-top:20px;
@@ -50,6 +50,29 @@ h6 {text-align:left;}
   transform: scale( 1.5 )
 
 }
+
+#ShowAllCities h5 {
+    text-align:center;
+    margin-top:25px;
+}
+
+.span_text {
+    position:relative;
+}
+.over_text {
+    position:absolute;
+    display:inline-block;
+    width:50%;
+    height:5%;
+    background:none;
+    top:90%;left:4%;
+    z-index : 100;
+    float:left;
+     font-weight:bold;
+     color:white;
+}
+/**
+
 /**
 #productBox .product div:hover {
 
