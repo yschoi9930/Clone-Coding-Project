@@ -82,15 +82,11 @@ span.Star {
  }
 
 .PromotionImg {
-<<<<<<< HEAD
-margin : 0 20px;
-margin-bottom : 6px;
-=======
 margin : 0 18px;
 margin-bottom : 6px;
 text-align:center;
 margin-top : 15px;
->>>>>>> 790d57e180cd7d0307a775c0ffc6db9439e4aa30
+
 }
 
 .PromotionImg img:hover {
@@ -104,10 +100,6 @@ cursor:pointer;
 .PromotionBox {
 display:inline-block;
 word-break:normal;
-<<<<<<< HEAD
-width : 18%;
-vertical-align :top;
-=======
 width : 18.5%;
 vertical-align :top;
 margin-bottom:50px;
@@ -126,7 +118,6 @@ left:20px;
 
 .GoRight {
     margin-left:30px;
->>>>>>> 790d57e180cd7d0307a775c0ffc6db9439e4aa30
 }
 
 

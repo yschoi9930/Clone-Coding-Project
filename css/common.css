@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* common.css */
 
-<<<<<<< HEAD
+
 body::-webkit-scrollbar {display:none;}
 
 * {margin:0 auto;}
@@ -11,7 +11,6 @@ body::-webkit-scrollbar {display:none;}
     position:relative;
     margin:0 auto;
     }
-=======
 * {
     margin:0;
 }
@@ -25,4 +24,3 @@ body::-webkit-scrollbar {display:none;}
     margin:0 auto;
     width:1500px;
 }
->>>>>>> 790d57e180cd7d0307a775c0ffc6db9439e4aa30
