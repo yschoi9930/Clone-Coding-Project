@@ -2,92 +2,133 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Waug</title>
+    <title>와그 - 당신이 찾는 모든 여행이 여기에</title>
     <link rel="stylesheet" type="text/css" href="css/common.css">
-
-    <style type="text/css">
-        //body {background-color:black;}
-        #logoBox {width:50px;}
-    </style>
-</head>
-<body>
-    <header id="Header">
-        <div id="TopBox">
-	            	<div id="logoBox"><a href="index.html"><img src="image/waug_logo.svg" id="logoImg"></a></div>
-	            	<div id="topMenuBox">한국어 KRW 대한민국 원(₩) 로그인</div>
-        </div>
-        <div id="Main">
-            <div id="BasePhoto">
-                <div id="TransparentBox">
-                    <h3>낭만 가득한 겨울 캠핑을 만나보세요</h3>
-                    <input type="text" placeholder="액티비티 또는 지역명으로 검색하세요">
-                </div>
-                <button></button><button></button>
-            </div>
-        </div>
-    </header>
-    <nav>
-        <div id="Category">
-            <div><img src=""></div>
-            <div><img src=""></div>
-            <div><img src=""></div>
-            <div><img src=""></div>
-            <div><img src=""></div>
-            <div><img src=""></div>
-            <div><img src=""></div>
-            <div><img src=""></div>
-        </div>
-    </nav>
-    <div id="Popular">
-        <div>
-            <h2>인기 여행지</h2>
-            <div><a><img src="image/cross.svg" id="logoImg"></a></div>
-            <h5>2021년 가장 핫한 여행지를 추천해요</h5>
-        </div>
-        <div id="PopularList">
-            <div><img src=""></div>
-            <div><img src=""></div>
-            <div><img src=""></div>
-            <div><img src=""></div>
-            <div><img src=""></div>
-            <div><img src=""></div>
-            <div><img src=""></div>
-            <div><img src=""></div>
-        </div>
-        <div id="ShowAllCities">
-
-        </div>
-    </div>
-    <div id="Coupon">
-        <div id="SlidePanel">
-            <img src="">
-            <img src="">
-            <img src="">
-            <img src="">
-            <img src="">
-            <img src="">
-        </div>
-        <div id="prevButton">
-            <img src="">
-        </div>
-        <div id="nextButton">
-            <img src="">
-        </div>
-        <div id="Buttons">
-            <button></button><button></button><button></button>
-            <button></button><button></button><button></button>
-        </div>
-    </div>
-
-    <!----------------------yeseul------------------>
-
-
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/Main.css">
+    <link rel="stylesheet" type="text/css" href="css/navigator.css">
+    <link rel="stylesheet" type="text/css" href="css/slideShow.css">
+    <link rel="stylesheet" type="text/css" href="css/Destination.css">
     <link rel="stylesheet" type="text/css" href="css/promotion.css">
     <link rel="stylesheet" type="text/css" href="css/recommend.css">
     <link rel="stylesheet" type="text/css" href="css/Footer2.css">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/slideshow.js"></script>
+    <script src="js/headerScroll.js"></script>
+    <script src="js/slideShow_jcd.js"></script>
+</head>
+<body>
+    <div id="Wrap">
+        <header>
+            <a href="Waug.html"><img src="image/waug_logo.svg" id="whiteLogo"></a>
+            <span id="topMenuBox"><span>한국어 ▽</span><span>KRW 대한민국 원(₩) ▽</span><span><a href="#">로그인</a></span></span>
+        </header><!-- header 종료 -->
+        <article id="Main">
+            <div id="MainPhoto">
+                <img src="image/main1.jpg">
+                <img src="image/main2.jpg">
+            </div>
+            <div id="SearchBox">
+                <div id="TBox">
+                    <span>낭만 가득한 겨울 캠핑을 만나보세요.</span>
+                    <br>
+                    <input type="text" placeholder="액티비티 또는 지역명으로 검색하세요">
+                </div>
+            </div>
+            <div id="Appendix">
+                <span>감성 차박 패키지</span>
+            </div>
+            <div id="Button">
+                <img src="image/controlButton2.png" class="Btn">
+                <img src="image/controlButton1.png" class="Btn">
+            </div>
+        </article><!-- Main 종료 -->
+        <nav>
+            <table id="navBox">
+                <tr>
+                    <td><img src="image/nav1.png" class="navImg"></td>
+                    <td><img src="image/nav2.png" class="navImg"></td>
+                    <td><img src="image/nav3.png" class="navImg"></td>
+                    <td><img src="image/nav4.png" class="navImg"></td>
+                    <td><img src="image/nav5.png" class="navImg"></td>
+                    <td><img src="image/nav6.png" class="navImg"></td>
+                    <td><img src="image/nav7.png" class="navImg"></td>
+                    <td><img src="image/nav8.svg" class="navImg"></td>
+                </tr>
+                <tr id="navImgText">
+                    <td>투어&티켓</td>
+                    <td>숙소</td>
+                    <td>교통수단</td>
+                    <td>유심&와이파이</td>
+                    <td>레스토랑</td>
+                    <td>골프</td>
+                    <td>렌터카</td>
+                    <td>여행자 보험</td>
+                </tr>
+            </table>
+        </nav><!-- nav 종료 -->
+
+        <!----------------------jcd--------------------->
+    <div id="Wrap2">
+        <article  id="popular">
+        <div id = "text">
+            <div><a><img src="image/cross.svg" align="right" id="logoImg"></a></div>
+            <h2>인기 여행지</h2>
+            <h5>2021년 가장 핫한 여행지를 추천해요</h5>
+
+
+        </div>
+        <div id="DestinationBox">
+            <div class='Destination'>
+
+
+
+                <div><a href="#"><img src='image/jeju.jpg'>제주</a></div>
+                <div><a href="#"><img src='image/seoul.jpg'></a></div>
+                <div><a href="#"><img src='image/busan.jpg'></a></div>
+                <div><a href="#"><img src='image/everland.jpg'></a></div>
+                <div><a href="#"><img src='image/jungdongjin.jpg'></a></div>
+                <div><a href="#"><img src='image/songdo.jpg'></a></div>
+                <div><a href="#"><img src='image/jiri.jpg'></a></div>
+                <div><a href="#"><img src='image/dokdo.jpg'></a></div>
+
+            </div>
+
+
+
+        </div>
+        <div id="ShowAllCities">
+            <h5>여행지 모두 보기(+172 Cities)</h5>
+        </div>
+    </article>
+    <article id="slideShow">
+        <div id="prevNextButtonBox">
+            <img id="prevButton" src="image/prevButton.png">
+            <img id="nextButton" src="image/nextButton.png">
+        </div>
+        <div id="slideShowBox">
+            <div id="slidePanel">
+                <img src="image/slide_img_01.png" class="slideImage">
+                <img src="image/slide_img_02.png" class="slideImage">
+                <img src="image/slide_img_03.png" class="slideImage">
+                <img src="image/slide_img_04.png" class="slideImage">
+                <img src="image/slide_img_05.png" class="slideImage">
+                <img src="image/slide_img_06.png" class="slideImage">
+            </div>
+        </div>
+    </div>
+        <div id="controlPanel">
+            <img src="image/controlButton1.png" class="controlButton">
+            <img src="image/controlButton1.png" class="controlButton">
+            <img src="image/controlButton1.png" class="controlButton">
+            <img src="image/controlButton1.png" class="controlButton">
+            <img src="image/controlButton1.png" class="controlButton">
+            <img src="image/controlButton1.png" class="controlButton">
+         </div>
+    </article>
 
     <div id="Promotion">
-        <h2>와그 추천</h2>
+        <div><h2 class="GoRight">와그 추천</h2></div>
         <div id="PromotionList">
             <div class = "PromotionImg">
                 <img id="promotionimg_Snow" src="image/Snowhill.jpg">
@@ -96,8 +137,9 @@
                 <img id="promotionimg_Seoul" src="image/SeoulTower.jpg">
                 <img id="promotionimg_Ever" src="image/Everland.jpg">
             </div>
-            <div class="PromotionBox">
 
+        <div id="promotionTotal">
+            <div class="PromotionBox">
                 <div class="Subtitle">
                     <ul>
                         <li>오늘부터 사용 가능</li>
@@ -216,7 +258,6 @@
             <!----------------------Everland------------------>
 
             <div class="PromotionBox">
-
                 <div class="Subtitle">
                     <ul>
                         <li>오늘부터 사용 가능</li>
@@ -243,6 +284,7 @@
                 </div>
             </div>
         </div>
+        </div>
     </div>
 
 
@@ -250,8 +292,8 @@
 
     <div id="Recommend">
         <div>
-            <h2>이런 여행은 어때요?</h2>
-            <h5>와그 에디터가 추천하는 여행을 만나보세요</h5>
+            <h2 class="GoRight">이런 여행은 어때요?</h2>
+            <h5 class="GoRight">와그 에디터가 추천하는 여행을 만나보세요</h5>
         </div>
         <div id="RecommendList">
             <div class = "RecommendImg" >
@@ -315,8 +357,8 @@
     </div>
     <footer id="Footer">
         <div>
-            <h2>와그 파트너</h2>
-            <h5>전세계의 파트너와 함께 다양한 프로모션을 제공해요</h5>
+            <h2 class="GoRight">와그 파트너</h2>
+            <h5 class="GoRight">전세계의 파트너와 함께 다양한 프로모션을 제공해요</h5>
         </div>
         <div id = FooterImg>
             <img class = "FooterImgs" src="image/universalstudio_gray.png">
@@ -391,5 +433,7 @@
             </div>
         </div>
     </footer>
+    </div><!-- Wrap2 종료 -->
+    </div><!--Wrap 종료-->
 </body>
 </html>
